@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 209, 246);
+}
+
+header {
+    text-align: center;
+}
+
+header>h1{
+    color: rgb(119, 16, 175);
+    font-size: 30px;
+    margin-top: 44px;
+    margin-bottom: 20px;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+
+img{
+    width: 300px;
+    opacity: 0.2;
+}
+
+main >.box{
+    background-color: rgb(120, 16, 175);
+    width: 700px;
+    margin:32px auto;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+main >.box >.html,
+main >.box >.css{
+    padding: 0px 30px;
+}
+
+main >.box >.html{
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+main >.box >.html >h2{
+    padding-bottom: 10px;
+}
+main >.box >.css >h2{
+    padding-bottom: 10px;
+}
+main >.box >.css{
+    padding-bottom: 30px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    padding-left:10px;
+    border-left: 5px solid transparent;
+    margin-bottom: 14px;
+}
+
+.important{
+    border-color: yellow;
+}
+span{
+    color: rgb(255, 255, 87);
+}
+span >a{
+    background-color: rgb(245, 245, 165);
+    text-decoration: none;
+    padding: 2px 5px;
+}
+span >a:hover,span >a:active{
+    background-color: yellow;
+}
+
+footer{
+    text-align: center;
+}
+
+footer >button{
+    background-color: yellow;
+    padding: 3px 6px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+footer >button:hover{
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer >p{
+    margin-bottom: 20px;
+}
