@@ -1,0 +1,4 @@
+With document.body.firstChild you get access to first Node
+With childnodes you get access to both tags and html content
+With children you get access to html elements stored
+With firstElementChild you access to first text node

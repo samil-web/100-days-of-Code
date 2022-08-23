@@ -1,0 +1,11 @@
+/* input .warning --> means all warning classes inside input element */
+/* input.warning --> means all inputs with warning classes */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.warning{
+    color: rgba(225, 100, 16, 0.923);
+}

@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(251, 233, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.container >h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: sans-serif ,'Oswald';
+}
+
+.container >p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Fira Sans';
+    text-align: center;
+}
+
+.container >.box{
+    background-color: rgb(253, 255, 219);
+    width: 700px;
+    height: 350px;
+}
+.container >.box >h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: sans-serif ,'Oswald';
+}
+
+.container >.box p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Fira Sans';
+}
+
+.container >.box button{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    background-color: rgb(212, 222, 18);
+    border: 1px solid rgb(212, 222, 18);
+}
+
+.remove >button,.addcolor >button{
+    border-radius: 5px;
+}
+
+.container >.box button:hover{
+    background-color: rgb(245, 254, 78);
+    cursor: pointer;
+}
+.change-color{
+    color:red;
+}
+
+/* key ve value nese yaz removea nese yazib cleara basanda her sey temizlesin */
+/* namea muxtelif valuelar yazanda 3nu de localstorage e daxil etsin yanyana- Json.parsing */
